@@ -2,6 +2,19 @@
 
 body {
   font-family: "poppins", sans-serif;
+  background-color: #e1e1e1;
+}
+
+.main-section {
+  background: url("images/background.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  padding: 200px;
+  border-bottom-left-radius: 100px;
+  background-color: white;
 }
 
 .counter {
@@ -21,52 +34,19 @@ body {
   padding-inline-start: 10px;
   list-style-type: none;
   color: white;
-
-  /* margin-left: 20px; */
-}
-
-.html {
-  height: 30px;
-  width: 50px;
-  border-radius: 10px;
-  padding-top: 4px;
-  margin-right: 4px;
-  background-color: hsl(234, 68%, 81%);
-  text-align: center;
-}
-
-.ruby {
-  height: 30px;
-  width: 120px;
-  border-radius: 10px;
-  padding-top: 4px;
-  margin-right: 4px;
-  background-color: hsl(234, 68%, 81%);
-  text-align: center;
-}
-
-.css {
-  height: 30px;
-  width: 40px;
-  border-radius: 10px;
-  padding-top: 4px;
-  background-color: hsl(234, 68%, 81%);
-  text-align: center;
-}
-
-.javascript {
-  height: 30px;
-  width: 90px;
-  border-radius: 10px;
-  padding-top: 4px;
-  background-color: hsl(234, 68%, 81%);
-  text-align: center;
 }
 
 .contact {
   background-color: #0015d6;
   border-top-left-radius: 100px;
   color: white;
+}
+
+.about {
+  border-top-right-radius: 100px;
+  background-color: white;
+  height: 800px;
+  padding:120px 100px;
 }
 
 .about .primary-txt {

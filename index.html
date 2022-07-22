@@ -16,372 +16,399 @@
   </head>
 
   <body data-spy="scroll" data-offset="0" data-target="#navbar-scrollspy">
-    <div class="container-fluid">
-      <header>
-        <nav
-          class="navbar navbar-expand-sm navbar-light bg-light mb-20 fixed-top"
-          id="navbar-scrollspy"
+    <header>
+      <nav
+        class="navbar navbar-expand-sm navbar-light bg-light mb-20 fixed-top"
+        id="navbar-scrollspy"
+      >
+        <a href="#" class="nav-brand">My Logo</a>
+        <button type="button"
+          class="navbar-toggler"
+          data-toggle="collapse"
+          data-target="#nav-menu"
         >
-          <a href="#" class="nav-brand">My Logo</a>
-          <button type="button"
-            class="navbar-toggler"
-            data-toggle="collapse"
-            data-target="#nav-menu"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="nav-menu">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="#card-1">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#card-2">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#card-3">Contact</a>
-              </li>
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="nav-menu">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#card-1">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#card-2">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#card-3">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <section class="main-section">
+      <div class="container">
+        <div class="txt-holder">
+          <h1>
+            I'm Zakariya <br />
+            Glad to see you!
+          </h1>
+          <p class="detail-txt">
+            I'm a software developer! I can help you build a product, feature
+            or website Look through<br />
+            some of my work and Experience! If you like what you see and have
+            a project you need <br />coded, don't hesitate to contact me.
+          </p>
+        </div>
+        <div class="social-media">
+          <div class="connect">
+            <a href="#">LET'S CONNECT</a>
+          </div>
+          <div class="about-my-self-social-md-icons mt-2">
+            <img class="mr-2" src="../images/github.png" alt="github" />
+            <img class="mr-2" src="../images/Linkedinicon.png" alt="linkedin" />
+            <img class="mr-2" src="../images/fingers.png" alt="2-fingers-icon" />
+            <img class="mr-2" src="../images/twitter.png" alt="twitter" />
+            <img class="mr-2" src="../images/M.png" alt="M" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="projects p-5">
+      <div class="card m-5 rounded-3" id="card-1">
+        <div class="row m-4">
+          <div class="col">
+            <img
+              src="../images/desktop-card1.png"
+              alt="image-1"
+              class="card-img-top"
+            />
+          </div>
+          <div class="col">
+            <p class="h2">Tonic</p>
+            <div class="row m-0">
+              <p class="h6 pr-2">CANOPY</p>
+              <img
+                src="../images/Counter.png"
+                alt="counter"
+                class="counter"
+              />
+              <p class="back-end-dev pl-1 pr-2">Back End Dev</p>
+              <img
+                src="../images/Counter.png"
+                alt="counter"
+                class="counter"
+              />
+              <p class="pl-1">2015</p>
+            </div>
+            <p>
+              A daily selection of privately personalized reads; no accounts
+              or sign-ups required.
+            </p>
+            <ul class="row justify-content-start my-custom-ul-name">
+              <li><h5><span class="badge rounded-pill bg-secondary p-2 mr-3">html</span></h5></li>
+              <li><h5><span class="badge rounded-pill bg-secondary p-2 mr-3">css</span></h5></li>
+              <li><h5><span class="badge rounded-pill bg-secondary p-2">javascript</span></h5></li>
             </ul>
-          </div>
-        </nav>
-      </header>
-        <div class="card m-4" id="card-1">
-          <div class="row m-4">
-            <div class="col">
-              <img
-                src="../images/desktop-card1.png"
-                alt="image-1"
-                class="card-img-top"
-              />
-            </div>
-            <div class="col">
-              <p class="h2">Tonic</p>
-              <div class="row m-0">
-                <p class="h6 pr-2">CANOPY</p>
-                <img
-                  src="../images/Counter.png"
-                  alt="counter"
-                  class="counter"
-                />
-                <p class="back-end-dev pl-1 pr-2">Back End Dev</p>
-                <img
-                  src="../images/Counter.png"
-                  alt="counter"
-                  class="counter"
-                />
-                <p class="pl-1">2015</p>
-              </div>
-              <p>
-                A daily selection of privately personalized reads; no accounts
-                or sign-ups required.
-              </p>
-              <ul class="row justify-content-start my-custom-ul-name">
-                <li><h5><span class="badge rounded-pill bg-secondary p-2 mr-3">html</span></h5></li>
-                <li><h5><span class="badge rounded-pill bg-secondary p-2 mr-3">css</span></h5></li>
-                <li><h5><span class="badge rounded-pill bg-secondary p-2">javascript</span></h5></li>
-              </ul>
-              <button
-                type="button"
-                class="btn btn-primary"
-                data-toggle="modal"
-                data-target="#first-modal"
-              >
-                See Project
-              </button>
-              <!-- Modal -->
-              <div class="modal fade" id="first-modal">
-                <div class="modal-dialog">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h5 class="modal-title h2">Tonic</h5>
-                      <button
-                        type="button"
-                        class="btn-close"
-                        data-dismiss="modal"
-                        data-target="first-modal"
-                        aria-label="Close"
-                      >
-                        <span>&times;</span>
-                      </button>
-                    </div>
-                    <div class="modal-body">
-                      <p>
-                        This is a Demo for Tonic project. I will make it online
-                        soon.
-                      </p>
-                    </div>
-                    <div class="modal-footer">
-                      <button
-                        type="button"
-                        class="btn-close bg-success"
-                        data-dismiss="modal"
-                        data-target="first-modal"
-                      >
-                        Ok
-                      </button>
-                    </div>
+            <button
+              type="button"
+              class="btn btn-primary"
+              data-toggle="modal"
+              data-target="#first-modal"
+            >
+              See Project
+            </button>
+            <!-- Modal -->
+            <div class="modal fade" id="first-modal">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title h2">Tonic</h5>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-dismiss="modal"
+                      data-target="first-modal"
+                      aria-label="Close"
+                    >
+                      <span>&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <p>
+                      This is a Demo for Tonic project. I will make it online
+                      soon.
+                    </p>
+                  </div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn-close bg-success"
+                      data-dismiss="modal"
+                      data-target="first-modal"
+                    >
+                      Ok
+                    </button>
                   </div>
                 </div>
               </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="card m-4" id="card-2">
-          <div class="row m-4">
-            <div class="col">
-              <p class="h2">Multi Post Stories</p>
-              <div class="row m-0">
-                <p class="h6 pr-2">FACEBOOK</p>
-                <img
-                  src="../images/Counter.png"
-                  alt="counter"
-                  class="counter"
-                />
-                <p class="back-end-dev pl-1 pr-2">Back End Dev</p>
-                <img
-                  src="../images/Counter.png"
-                  alt="counter"
-                  class="counter"
-                />
-                <p class="pl-1">2015</p>
-              </div>
-              <p>
-                Experimental content creation feature that allows users to add
-                to an existing story over the course of a day without spamming
-                their friends.
-              </p>
-              <ul class="row justify-content-start my-custom-ul-name">
-                <li><h5><span class="badge rounded-pill bg-secondary p-2 mr-3">html</span></h5></li>
-                <li><h5><span class="badge rounded-pill bg-secondary p-2 mr-3">ruby</span></h5></li>
-                <li><h5><span class="badge rounded-pill bg-secondary p-2 mr-3">css</span></h5></li>
-                <li><h5><span class="badge rounded-pill bg-secondary p-2">javascript</span></h5></li>
-              </ul>
-              <button
-                type="button"
-                class="btn btn-primary"
-                data-toggle="modal"
-                data-target="#second-modal"
-              >
-                See Project
-              </button>
-              <!-- Modal -->
-              <div class="modal fade" id="second-modal">
-                <div class="modal-dialog">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h5 class="modal-title h2">Multi Post Stories</h5>
-                      <button
-                        type="button"
-                        class="btn-close"
-                        data-dismiss="modal"
-                        data-target="second-modal"
-                        aria-label="Close"
-                      >
-                        <span>&times;</span>
-                      </button>
-                    </div>
-                    <div class="modal-body">
-                      <p>
-                        This is a Demo for Multi Post Stories project. I will
-                        make it online soon.
-                      </p>
-                    </div>
-                    <div class="modal-footer">
-                      <button
-                        type="button"
-                        class="btn-close bg-success"
-                        data-dismiss="modal"
-                        data-target="second-modal"
-                      >
-                        Ok
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <img
-                src="../images/desktop-card2.png"
-                alt="image-1"
-                class="card-images"
-              />
-            </div>
-          </div>
-        </div>
-
-        <div class="card m-4" id="card-3">
-          <div class="row m-4">
-            <div class="col">
-              <img
-                src="../images/desktop-card3.png"
-                alt="image-1"
-                class="card-images"
-              />
-            </div>
-            <div class="col">
-              <p class="h2">Facebook 360</p>
-              <div class="row m-0">
-                <p class="h6 pr-2">Facebook</p>
-                <img
-                  src="../images/Counter.png"
-                  alt="counter"
-                  class="counter"
-                />
-                <p class="back-end-dev pl-1 pr-2">Back End Dev</p>
-                <img
-                  src="../images/Counter.png"
-                  alt="counter"
-                  class="counter"
-                />
-                <p class="pl-1">2015</p>
-              </div>
-              <p>
-                Exploring the future of media in Facebook's first Virtual
-                Reality app; a place to discover and enjoy 360 photos and videos
-                on Gear VR.
-              </p>
-              <ul class="row justify-content-start my-custom-ul-name">
-                <li><h5><span class="badge rounded-pill bg-secondary p-2 mr-3">html</span></h5></li>
-                <li><h5><span class="badge rounded-pill bg-secondary p-2 mr-3">ruby</span></h5></li>
-                <li><h5><span class="badge rounded-pill bg-secondary p-2 mr-3">css</span></h5></li>
-                <li><h5><span class="badge rounded-pill bg-secondary p-2">javascript</span></h5></li>
-              </ul>
-              <button
-                type="button"
-                class="btn btn-primary"
-                data-toggle="modal"
-                data-target="#third-modal"
-              >
-                See Project
-              </button>
-              <!-- Modal -->
-              <div class="modal fade" id="third-modal">
-                <div class="modal-dialog">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h5 class="modal-title h2">Facebook 360</h5>
-                      <button
-                        type="button"
-                        class="btn-close"
-                        data-dismiss="modal"
-                        data-target="third-modal"
-                        aria-label="Close"
-                      >
-                        <span>&times;</span>
-                      </button>
-                    </div>
-                    <div class="modal-body">
-                      <p>
-                        This is a Demo for Facebook 360 project. I will make it
-                        online soon.
-                      </p>
-                    </div>
-                    <div class="modal-footer">
-                      <button
-                        type="button"
-                        class="btn-close bg-success"
-                        data-dismiss="modal"
-                        data-target="third-modal"
-                      >
-                        Ok
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="card m-4" id="card-4">
-          <div class="row m-4">
-            <div class="col">
-              <p class="h2">Uber Navigation</p>
-              <div class="row m-0">
-                <p class="h6 pr-2">Uber</p>
-                <img
-                  src="../images/Counter.png"
-                  alt="counter"
-                  class="counter"
-                />
-                <p class="back-end-dev pl-1 pr-2">Lead Developer</p>
-                <img
-                  src="../images/Counter.png"
-                  alt="counter"
-                  class="counter"
-                />
-                <p class="pl-1">2015</p>
-              </div>
-              <p>
-                Experimental content creation feature that allows users to add
-                to an existing story over the course of a day without spamming
-                their friends.
-              </p>
-              <ul class="row justify-content-start my-custom-ul-name">
-                <li><h5><span class="badge rounded-pill bg-secondary p-2 mr-3">html</span></h5></li>
-                <li><h5><span class="badge rounded-pill bg-secondary p-2 mr-3">ruby</span></h5></li>
-                <li><h5><span class="badge rounded-pill bg-secondary p-2 mr-3">css</span></h5></li>
-                <li><h5><span class="badge rounded-pill bg-secondary p-2">javascript</span></h5></li>
-              </ul>
-              <button
-                type="button"
-                class="btn btn-primary"
-                data-toggle="modal"
-                data-target="#fourth-modal"
-              >
-                See Project
-              </button>
-              <!-- Modal -->
-              <div class="modal fade" id="fourth-modal">
-                <div class="modal-dialog">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h5 class="modal-title h2">Uber Navigation</h5>
-                      <button
-                        type="button"
-                        class="btn-close"
-                        data-dismiss="modal"
-                        data-target="fourth-modal"
-                        aria-label="Close"
-                      >
-                        <span>&times;</span>
-                      </button>
-                    </div>
-                    <div class="modal-body">
-                      <p>
-                        This is a Demo for Uber Navigation project. I will make
-                        it online soon.
-                      </p>
-                    </div>
-                    <div class="modal-footer">
-                      <button
-                        type="button"
-                        class="btn-close bg-success"
-                        data-dismiss="modal"
-                        data-target="fourth-modal"
-                      >
-                        Ok
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col mr-0">
-              <img
-                src="../images/desktop-card4.png"
-                alt="image-1"
-                class="card-images"
-              />
             </div>
           </div>
         </div>
       </div>
-      <section class="about align-items-center p-5 d-inline-block" id="about-me">
+      <div class="card m-5 rounded-3" id="card-2">
+        <div class="row m-4">
+          <div class="col">
+            <p class="h2">Multi Post Stories</p>
+            <div class="row m-0">
+              <p class="h6 pr-2">FACEBOOK</p>
+              <img
+                src="../images/Counter.png"
+                alt="counter"
+                class="counter"
+              />
+              <p class="back-end-dev pl-1 pr-2">Back End Dev</p>
+              <img
+                src="../images/Counter.png"
+                alt="counter"
+                class="counter"
+              />
+              <p class="pl-1">2015</p>
+            </div>
+            <p>
+              Experimental content creation feature that allows users to add
+              to an existing story over the course of a day without spamming
+              their friends.
+            </p>
+            <ul class="row justify-content-start my-custom-ul-name">
+              <li><h5><span class="badge rounded-pill bg-secondary p-2 mr-3">html</span></h5></li>
+              <li><h5><span class="badge rounded-pill bg-secondary p-2 mr-3">ruby</span></h5></li>
+              <li><h5><span class="badge rounded-pill bg-secondary p-2 mr-3">css</span></h5></li>
+              <li><h5><span class="badge rounded-pill bg-secondary p-2">javascript</span></h5></li>
+            </ul>
+            <button
+              type="button"
+              class="btn btn-primary"
+              data-toggle="modal"
+              data-target="#second-modal"
+            >
+              See Project
+            </button>
+            <!-- Modal -->
+            <div class="modal fade" id="second-modal">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title h2">Multi Post Stories</h5>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-dismiss="modal"
+                      data-target="second-modal"
+                      aria-label="Close"
+                    >
+                      <span>&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <p>
+                      This is a Demo for Multi Post Stories project. I will
+                      make it online soon.
+                    </p>
+                  </div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn-close bg-success"
+                      data-dismiss="modal"
+                      data-target="second-modal"
+                    >
+                      Ok
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <img
+              src="../images/desktop-card2.png"
+              alt="image-1"
+              class="card-images"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="card m-5 rounded-3" id="card-3">
+        <div class="row m-4">
+          <div class="col">
+            <img
+              src="../images/desktop-card3.png"
+              alt="image-1"
+              class="card-images"
+            />
+          </div>
+          <div class="col">
+            <p class="h2">Facebook 360</p>
+            <div class="row m-0">
+              <p class="h6 pr-2">Facebook</p>
+              <img
+                src="../images/Counter.png"
+                alt="counter"
+                class="counter"
+              />
+              <p class="back-end-dev pl-1 pr-2">Back End Dev</p>
+              <img
+                src="../images/Counter.png"
+                alt="counter"
+                class="counter"
+              />
+              <p class="pl-1">2015</p>
+            </div>
+            <p>
+              Exploring the future of media in Facebook's first Virtual
+              Reality app; a place to discover and enjoy 360 photos and videos
+              on Gear VR.
+            </p>
+            <ul class="row justify-content-start my-custom-ul-name">
+              <li><h5><span class="badge rounded-pill bg-secondary p-2 mr-3">html</span></h5></li>
+              <li><h5><span class="badge rounded-pill bg-secondary p-2 mr-3">ruby</span></h5></li>
+              <li><h5><span class="badge rounded-pill bg-secondary p-2 mr-3">css</span></h5></li>
+              <li><h5><span class="badge rounded-pill bg-secondary p-2">javascript</span></h5></li>
+            </ul>
+            <button
+              type="button"
+              class="btn btn-primary"
+              data-toggle="modal"
+              data-target="#third-modal"
+            >
+              See Project
+            </button>
+            <!-- Modal -->
+            <div class="modal fade" id="third-modal">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title h2">Facebook 360</h5>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-dismiss="modal"
+                      data-target="third-modal"
+                      aria-label="Close"
+                    >
+                      <span>&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <p>
+                      This is a Demo for Facebook 360 project. I will make it
+                      online soon.
+                    </p>
+                  </div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn-close bg-success"
+                      data-dismiss="modal"
+                      data-target="third-modal"
+                    >
+                      Ok
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card m-5 rounded-3" id="card-4">
+        <div class="row m-4">
+          <div class="col">
+            <p class="h2">Uber Navigation</p>
+            <div class="row m-0">
+              <p class="h6 pr-2">Uber</p>
+              <img
+                src="../images/Counter.png"
+                alt="counter"
+                class="counter"
+              />
+              <p class="back-end-dev pl-1 pr-2">Lead Developer</p>
+              <img
+                src="../images/Counter.png"
+                alt="counter"
+                class="counter"
+              />
+              <p class="pl-1">2015</p>
+            </div>
+            <p>
+              Experimental content creation feature that allows users to add
+              to an existing story over the course of a day without spamming
+              their friends.
+            </p>
+            <ul class="row justify-content-start my-custom-ul-name">
+              <li><h5><span class="badge rounded-pill bg-secondary p-2 mr-3">html</span></h5></li>
+              <li><h5><span class="badge rounded-pill bg-secondary p-2 mr-3">ruby</span></h5></li>
+              <li><h5><span class="badge rounded-pill bg-secondary p-2 mr-3">css</span></h5></li>
+              <li><h5><span class="badge rounded-pill bg-secondary p-2">javascript</span></h5></li>
+            </ul>
+            <button
+              type="button"
+              class="btn btn-primary"
+              data-toggle="modal"
+              data-target="#fourth-modal"
+            >
+              See Project
+            </button>
+            <!-- Modal -->
+            <div class="modal fade" id="fourth-modal">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title h2">Uber Navigation</h5>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-dismiss="modal"
+                      data-target="fourth-modal"
+                      aria-label="Close"
+                    >
+                      <span>&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <p>
+                      This is a Demo for Uber Navigation project. I will make
+                      it online soon.
+                    </p>
+                  </div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn-close bg-success"
+                      data-dismiss="modal"
+                      data-target="fourth-modal"
+                    >
+                      Ok
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col mr-0">
+            <img
+              src="../images/desktop-card4.png"
+              alt="image-1"
+              class="card-images"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="about row" id="about-me">
+      <div class="col mr-5">
         <div class="txt-holder">
-          <h2 class="primary-txt">About<br />Myself</h2>
-          <p class="detail-txt">
+          <h2 class="primary-txt pb-4">About<br />Myself</h2>
+          <p class="detail-txt pb-3">
             Hello I’m a software developer! I can help you build a product ,
             feature or website Look through some of my work and experience! If
             you like what you see and have a project you need coded, don’t
@@ -399,55 +426,82 @@
             <img class="mr-2" src="../images/twitter.png" alt="twitter" />
             <img class="mr-2" src="../images/M.png" alt="M" />
             <div class="action">
-              <button class="btn btn-primary mt-3" type="button">Get my resume</button>
+              <button class="btn btn-primary mt-5" type="button">Get my resume</button>
             </div>
           </div>
-      </section>
-      <section class="contact align-items-center p-5" id="contact">
-        <div class="container p-5 m-auto">
-          <div class="txt-holder pl-5 pr-5">
-            <h2 class="primary-txt pl-5 pr-5">Contact Me</h2>
-            <p class="detail-txt pl-5 pr-5">
-              If you have an application you are interested in developing,
-              a feature that you need built or a project that needs coding. I'd
-              love to help with it
-            </p>
-          </div>
-          <div class="contact-form p-5 m-1">
-            <form action="https://formspree.io/f/xyyoqwwb" method="post">
-              <div class="form-group pl-5 pr-5">
-                <label hidden>User Name</label>
-                <input type="text" class="form-control" placeholder="user name">
-              </div>
-              <div class="form-group pl-5 pr-5">
-                <label hidden>Email Address</label>
-                <input type="email" class="form-control"  placeholder="name@example.com">
-              </div>
-              <div class="form-group pl-5 pr-5">
-                <label hidden>Message</label>
-                <textarea class="form-control" placeholder="write your message here" rows="3"></textarea>
-              </div>
-              <div class="form-group pl-5 pr-5">
-                <button class="btn btn-primary" type="submit">Get in Touch</button>
-              </div>
-            </form>
-          </div>
         </div>
-      </section>
+      </div>
+      <div class="col">
+        <div class="row justify-content-between">
+          <h3>Languages</h3>
+          <img src="../images/languages-icon.png" width="30px" height="30px" alt="drop-down icon">
+        </div>
+        <img src="../images/line-Separator-Bottom.png" alt="" class="separator">
+        <ul class="row list-unstyled">
+          <li class="mr-5">
+            <img src="../images/desktop-js.png" alt="" class="desktop-lang-list" />
+          </li>
+          <li class="mr-5">
+            <img src="../images/desktop-html.png" alt="" class="desktop-lang-list" />
+          </li>
+          <li class="mr-5">
+            <img src="../images/desktop-css.png" alt="" class="desktop-lang-list" />
+          </li>
+        </ul>
+        <div class="row justify-content-between">
+          <h3>Frameworks</h3>
+          <img src="../images/lang-greator-icon.png" width="30px" height="30px" alt="drop-down icon">
+        </div>
+        <img src="../images/line-Separator-Bottom.png" alt="" class="separator"><br>
+        <div class="row justify-content-between">
+          <h3>Skills</h3>
+          <img src="../images/lang-greator-icon.png" width="30px" height="30px" alt="drop-down icon">
+        </div>
+        <img src="../images/line-Separator-Bottom.png" alt="" class="separator">
+      </div>
+    </section>
+    <section class="contact align-items-center p-5" id="contact">
+      <div class="container p-5 m-auto">
+        <div class="txt-holder pl-5 pr-5">
+          <h2 class="primary-txt pl-5 pr-5">Contact Me</h2>
+          <p class="detail-txt pl-5 pr-5">
+            If you have an application you are interested in developing,
+            a feature that you need built or a project that needs coding. I'd
+            love to help with it
+          </p>
+        </div>
+        <div class="contact-form p-5 m-1">
+          <form action="https://formspree.io/f/xyyoqwwb" method="post">
+            <div class="form-group pl-5 pr-5">
+              <label hidden>User Name</label>
+              <input type="text" class="form-control" placeholder="user name">
+            </div>
+            <div class="form-group pl-5 pr-5">
+              <label hidden>Email Address</label>
+              <input type="email" class="form-control"  placeholder="name@example.com">
+            </div>
+            <div class="form-group pl-5 pr-5">
+              <label hidden>Message</label>
+              <textarea class="form-control" placeholder="write your message here" rows="3"></textarea>
+            </div>
+            <div class="form-group pl-5 pr-5">
+              <button class="btn btn-primary" type="submit">Get in Touch</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"
-    ></script>
+      crossorigin="anonymous"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js"
       integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-      crossorigin="anonymous"
-    ></script>
+      crossorigin="anonymous"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"
       integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-      crossorigin="anonymous"
-    ></script>
+      crossorigin="anonymous"></script>
   </body>
 </html>

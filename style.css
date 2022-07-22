@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+body {
+  font-family: "poppins", sans-serif;
+}
+
+.counter {
+  background: #d0c8c1;
+  margin-top: 8px;
+  width: 9px;
+  height: 9px;
+  border-radius: 5px;
+  justify-content: center;
+}
+
+.canopy {
+  font-weight: bold;
+}
+
+.my-custom-ul-name {
+  padding-inline-start: 10px;
+  list-style-type: none;
+
+  /* margin-left: 20px; */
+}
+
+.html {
+  height: 30px;
+  width: 50px;
+  border-radius: 10px;
+  padding-top: 4px;
+  margin-right: 4px;
+  background-color: hsl(234, 68%, 81%);
+  text-align: center;
+}
+
+.ruby {
+  height: 30px;
+  width: 120px;
+  border-radius: 10px;
+  padding-top: 4px;
+  margin-right: 4px;
+  background-color: hsl(234, 68%, 81%);
+  text-align: center;
+}
+
+.css {
+  height: 30px;
+  width: 40px;
+  border-radius: 10px;
+  padding-top: 4px;
+  background-color: hsl(234, 68%, 81%);
+  text-align: center;
+}
+
+.javascript {
+  height: 30px;
+  width: 90px;
+  border-radius: 10px;
+  padding-top: 4px;
+  background-color: hsl(234, 68%, 81%);
+  text-align: center;
+}

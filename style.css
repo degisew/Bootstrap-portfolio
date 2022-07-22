@@ -20,6 +20,7 @@ body {
 .my-custom-ul-name {
   padding-inline-start: 10px;
   list-style-type: none;
+  color: white;
 
   /* margin-left: 20px; */
 }
@@ -60,4 +61,24 @@ body {
   padding-top: 4px;
   background-color: hsl(234, 68%, 81%);
   text-align: center;
+}
+
+.contact {
+  background-color: #0015d6;
+  border-top-left-radius: 100px;
+  color: white;
+}
+
+.about .primary-txt {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 52px;
+    color: #172b4d;
+}
+
+.about .detail-txt {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #344563;
 }

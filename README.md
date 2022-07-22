@@ -8,6 +8,7 @@ For this portfolio website, I implemented Html And Css that includes the project
 
 - HTML
 - CSS
+- JavaScript
 - Bootstrap
 - Linter
 
@@ -32,7 +33,12 @@ Run the command below from the Terminal:
 - Twitter: [@DJ_etiya](https://twitter.com/Degisew-mengist)
 - LinkedIn: [jegisew21](https://www.linkedin.com/in/degisew-mengist-003298802)
 
+👤 **Zakariya Al-Khamisi**
 
+- Location: Yemen
+- GitHub: [@ZikaZaki](https://github.com/ZikaZaki)
+- Twitter: [@Zakariya](https://twitter.com/ZakariyaKhamisi)
+- LinkedIn: [@Zakariya](https://www.linkedin.com/in/zakariyaalkhamisisap/)
 
 ## 🤝 Contributing
 
